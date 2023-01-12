@@ -1,78 +1,39 @@
 <h1 align="center">
-    <img src="https://avatars.githubusercontent.com/u/114239186?s=100&v=4" alt="palera1n logo">
-    <p>checkp4le</p>
+    <img src="https://avatars.githubusercontent.com/u/114239186?s=100&v=4" alt="lunarp0le logo">
+    <p>lunarp0le</p>
 </h1>
-<h3 align="center">A fork of palera1n using checkra1n to boot, to re-enable SEP on A10</h3>
+<h3 align="center">A fork of checkp4le, to just use some stuff cus why not and also this is a plan for an attempt at a JB i might do in the future.</h3>
 <p align="center">
     <strong><a href="CHANGELOG.md">Change Log</a></strong>
     •
-    <strong><a href="https://dsc.gg/palera1n">Discord</a></strong>
+    <strong><a href="https://dsc.gg/Boffy">Discord</a></strong>
     •
-    <strong><a href="https://twitter.com/palera1n">Twitter</a></strong>
+    <strong><a href="https://twitter.com/Youtube">Twitter</a></strong>
 </p>
 
 # How does it work?
-It boots the device with multiple patches required. On first run, it'll boot a ramdisk sets up the file system, creates a fakefs (if using semi tethered), installs the loader app. When booting, it uses checkra1n 0.1337.0 with a custom kernel patchfinder.
+idk bro im still planning stuff
 
 # Issues
 ### Need help?
-If you need help, **please** join our Discord. We disabled issues due to the flood of spam, and difficulty to respond in general. We are much more comfortable on Discord.
-
-Please, please, please, provide necessary info:
-
-- iOS version and device (eg. iPhone 7+ 15.1, iPhone 6s 15.3.1)
-- Computer's OS and version (eg. Ubuntu 22.04, macOS 13.0)
-- The command you ran
-- **Full log from the logs folder**
-
-**DO NOT** harass tweak devs if tweaks don't work. Refer to [here](https://github.com/itsnebulalol/ios15-tweaks) for compatiblity.
-
-You may join [here](https://dsc.gg/palera1n).
-
-# Patreons
-
-Thank you so much to our Patreons that make the future development possible! You may sub [here](https://patreon.com/palera1n), if you'd like to.
-
-<a href="https://github.com/samh06"><img width=64 src="https://user-images.githubusercontent.com/18669106/206333607-881d7ca1-f3bf-4e18-b620-25de0c527315.png"></img></a>
-<a href="https://havoc.app"><img width=64 src="https://docs.havoc.app/img/standard_icon.png"></img></a>
-<a href="https://twitter.com/yyyyyy_public"><img width=64 src="https://pbs.twimg.com/profile_images/1429332550112079876/dQQgsURc_400x400.jpg"></img></a>
-<a href="https://twitter.com/0xSp00kyb0t"><img width=64 src="https://pbs.twimg.com/profile_images/1603601553226620935/1t4yD1bD_400x400.jpg"></img></a>
-<a href="https://chariz.com"><img width=64 src="https://chariz.com/img/favicon.png"></img></a>
-<a href="https://twitter.com/stars6220"><img width=64 src="https://pbs.twimg.com/profile_images/1606990218925670400/Y4JBl6OS_400x400.jpg"></img></a>
-<a href="https://github.com/beast9265"><img width=64 src="https://avatars.githubusercontent.com/u/79794946?v=4"></img></a>
+there is no help for now, help yourself or use something else.
 
 # Warning
-- We are **NOT** responsible for any data loss. The user of this program accepts responsibility should something happen to their device. While nothing should happen, jailbreaking has risks in itself. **If your device is stuck in recovery, please run one of the following:**
+- I am not responsible for any data loss. The user of this program accepts responsibility should something happen to their device. While nothing should happen, jailbreaking has risks in itself. **If your device is stuck in recovery, please run one of the following:**
    - futurerestore --exit-recovery
    - irecovery -n
+added that because yes
 
 # Prerequisites
-- A checkm8 vulnerable iOS device on iOS 15 or 16 (A8-A11)
-  - The device must be on iOS 15.0-16.2
-- Linux or macOS computer
-  - Python 3 must be installed.
-
-### A10 and A11 devices
-- On A11, **you must disable your passcode while in the jailbroken state**.
-  - On iOS 16 A11, if you EVER enabled a passcode on 16, you have to reset through the settings app/restore with a computer
-  - On A11, we don't have a SEP exploit yet, so this cannot be fixed.
+Nothing yet because this is still a plan
 
 # How to use?
 
-A tutorial can be found [here](https://ios.cfw.guide/installing-palera1n).
+That's the neat part you don't.
 
 # Repos
 
-### Tweaks mode
-All repos work when using tweaks mode because it uses normal Procursus and not rootless.
-
-### Rootless 
-Repos need to be updated for rootless, here are some that work currently:
-
-- [Mineek's repo](https://mineek.github.io/repo) contains rootless Procursus packages
-- The official [palera1n repo](https://repo.palera.in) contains miscellaneous packages
-
-If you want to make a rootless repo, use the official [palera1n repo](https://github.com/palera1n/repo) for reference. Every deb should use the `iphoneos-arm64` architecture, and *nothing* should be on the rootfs. Everything should be in /var/jb.
+**there are no repos**
 
 # Credits
 
@@ -106,3 +67,4 @@ If you want to make a rootless repo, use the official [palera1n repo](https://gi
 - [Dora](https://github.com/dora2-iOS) for iBoot payload and iBootpatcher2
 - [Sam Bingner](https://github.com/sbingner) for [Substitute](https://github.com/sbingner/substitute)
 - [Serena](https://github.com/SerenaKit) for helping with boot ramdisk.
+- [Mortyick](https://github.com/darkestcore) (aka me) for being an idiot coming up with so godly ideas!11!  
