@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://avatars.githubusercontent.com/u/114239186?s=100&v=4" alt="lunarp0le logo">
+    <img src="https://media.discordapp.net/attachments/1023298825596719227/1062989481214488646/rpolesnow.png" alt="lunarp0le logo">
     <p>lunarp0le</p>
 </h1>
 <h3 align="center">A fork of checkp4le, to just use some stuff cus why not and also this is a plan for an attempt at a JB i might do in the future.</h3>
